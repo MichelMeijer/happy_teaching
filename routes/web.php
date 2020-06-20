@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/beoordeling_form', 'FormController@store');
+
+Route::get('/toevoegen', function() {
+    return view('toevoegen');
+});
+
+Route::get('/exporteren', function() {
+    return view('export');
+});
+
+Route::get('/overzicht', 'BeoordelingenController@show');
+Route::post('/export', 'BeoordelingenController@export');
+
+
+

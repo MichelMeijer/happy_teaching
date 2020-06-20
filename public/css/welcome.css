@@ -1,0 +1,40 @@
+.beoordeling {
+    margin-bottom: 50px;
+}
+
+.maincontent {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.textarea {
+    height: 200px;
+    width: 250px;
+}
+
+#beoordelingen {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#beoordelingen td, #beoordelingen th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#beoordelingen tr:nth-child(even){background-color: #f2f2f2;}
+
+#beoordelingen tr:hover {background-color: #ddd;}
+
+#beoordelingen th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+#creatief-text {
+    margin-left: 10px;
+}
